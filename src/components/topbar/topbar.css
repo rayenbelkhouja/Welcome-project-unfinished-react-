@@ -1,0 +1,189 @@
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    background-color: rgb(177, 94, 255);
+    display: grid;
+    grid-template-columns: 3fr 5fr 2fr 3fr 1fr;   
+    z-index: 2;
+}
+
+@media (max-width : 700px){
+    .topbar{
+        grid-template-columns: 3fr 5fr 2fr 4fr 0;
+    }
+
+    .profile-pic{
+        display: none;
+    }
+    
+}
+
+
+
+@media (max-width : 630px) {
+    .topbar-icons{
+        display: none;
+    }
+    .topbar-icons-parasite{
+        display: none;
+    }
+    
+    .hamburger-menu{
+        color: white;
+        font-size: 27px;
+        display: unset !important;
+    }
+
+}
+
+@media (max-width: 450px){
+    .topbar-Text{
+        display: none;
+
+    }
+    .topbar{
+        grid-template-columns: 4fr 6fr 0 4fr 0;
+    }
+}
+
+.hamburger-menu{
+display: none;
+}
+
+
+
+
+
+
+.topbar-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.topbar-middle{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.topbar-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+}
+
+.w-color {
+    color: rgb(129, 212, 129);
+}
+
+.search-bar{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar-input{
+    border: none;
+    height: 25px;
+    width: 80%;
+    outline: none;
+    background-color:rgba(255, 255, 255, 0);
+    min-width: 50px;
+}
+
+.search-bar-input::selection{
+    border: none;
+}
+
+.search-icon {
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.topbar-Text {
+    font-size: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 450;
+    padding: 18px 5px;
+    border-radius: 6px;
+}
+
+.topbar-Text:hover{
+    background-color: rgba(255, 255, 255, 0.342);
+
+}
+
+.topbar-icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.topbar-icons {
+    font-size: 25px;
+    color: white;
+    margin: 0 30px;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 50%;
+
+}
+
+.topbar-icons:hover {
+    background-color: rgba(255, 255, 255, 0.342);
+}
+
+.topbar-icons-parasite {
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+
+
+}
+
+.topbar-icons-parasite:hover{
+    background-color: rgba(255, 255, 255, 0.342);
+}
+
+.profile-pic{
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.profile-pic-container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 20px;
+}
+

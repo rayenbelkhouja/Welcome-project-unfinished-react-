@@ -1,0 +1,76 @@
+.rightbar {
+    height:calc(100vh - 55px);
+    flex: 1;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.birthday{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.birthday:hover{
+    background-color: rgba(197, 136, 255, 0.205);
+}
+
+.birthday-icon{
+    color:  rgb(177, 94, 255);
+    font-size: 45px;
+    margin-right: 10px;
+}
+
+.name-birthday{
+    font-weight: 500;
+}
+
+.rightbar-picture-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.rightbar-picture{
+    border-radius: 8px;
+    object-fit: contain;
+    width: 100%;
+    cursor: pointer;
+}
+
+.online-friend-word{
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+.online-friend{
+    padding: 15px 0;
+    margin: 0;
+}
+
+.online-friend-liste{
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+
+
+.profile-friend-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+.profile-friend-word{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+
+

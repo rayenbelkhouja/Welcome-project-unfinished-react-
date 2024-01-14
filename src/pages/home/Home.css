@@ -1,0 +1,33 @@
+.home{
+    padding-top: 58px;
+    display: flex;
+    padding-bottom: 2000px;
+    margin-left: 300px;
+}
+
+@media (max-width : 1100px){
+    .rightbar{
+        display: none;
+        align-items: center;
+        min-width: 500px;
+    }
+}
+
+@media (max-width : 700px){
+    .home{
+        margin-left: 0;
+    }
+    
+    .rightbar{
+        display: none;
+    }
+    
+    .leftbar{
+        display: none;
+    }
+   
+
+
+
+    
+}

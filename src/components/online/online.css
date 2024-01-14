@@ -1,0 +1,35 @@
+
+.online-friend-item{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+
+.online-friend-item:hover{
+    background-color: rgba(197, 136, 255, 0.247);
+}
+
+.online-cercle{
+    background-color: limegreen;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    position: absolute;
+    top: 0;
+    right: 7px;
+}
+
+.online-friend-picture-container{
+    position: relative;
+}
+
+.online-friend-picture{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    margin-right: 10px;
+}

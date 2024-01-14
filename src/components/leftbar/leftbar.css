@@ -1,0 +1,108 @@
+.leftbar{
+    height:calc(100vh - 55px);
+    overflow-y: scroll;
+    position: fixed;
+    width: 290px;
+    top: 55px;
+    left: 0;
+
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgba(177, 94, 255, 0.164);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:  rgb(177, 94, 255);
+}
+
+.upper-leftbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.upper-leftbar-items{
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    padding: 8px 0 8px 8px;
+    border-radius: 8px;
+
+}
+
+.upper-leftbar-items:hover{
+    background-color: rgba(177, 94, 255, 0.164);
+    cursor: pointer;
+}
+
+.upper-leftbar-icons{
+    font-size: 23px;
+    color:  rgb(177, 94, 255);
+    margin-right: 7px;
+}
+
+.upper-leftbar-icons-names{
+    font-size: 17px;
+    font-weight: 900;
+    color:  rgb(177, 94, 255);
+
+}
+
+.seemore-button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(177, 94, 255);
+    width: 120px;
+    height: 30px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    cursor:pointer;
+}
+
+.leftbar-hr{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.lower-leftbar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 18px;
+    
+}
+
+.leftbar-profile-picture{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;   
+    margin-right: 8px;
+}
+
+.lower-leftbar-items{
+    display: flex;
+    align-items: center;
+    padding: 6px 0 6px 6px;
+    border-radius: 8px;
+}
+
+.lower-leftbar-items:hover{
+    background-color:  rgba(177, 94, 255, 0.164);
+}
+
+.leftbar-profile-name{
+    font-size: 15px;
+    font-weight: 400;
+}
